@@ -1,3 +1,11 @@
+:root{
+    --primery-text-coor: #6C6C6C;
+    --title-text-color: #000000;
+    --akcent-text-color: #AC1313;
+    --subtitle-text-color:#D77474;
+    
+
+}
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -20,10 +28,12 @@ h3,
 h4,
 h5,
 h6,
+
 p {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 
 img {
     display: block;
@@ -62,36 +72,24 @@ img {
 
 /* Стилі ссилок */
 .style-home{
-    color:#AC1313 ;
+    color: var(--akcent-text-color) ;
 }
-.style-home .list:hover, 
-.style-home .list:focus{
-    color: #000000;
+.style-nav-item {
+    color:var(--primery-text-coor) ;
 }
-.style-nav .list{
-    color:#6C6C6C ;
-}
-.style-nav .list:hover,
-.style-nav .list:focus {
-    color: #000000;
+.style-nav-item:hover,
+.style-nav-item:focus {
+    color: var(--akcent-text-color);
 }
 /* hero */
-.hero, .hero-title{
-    color: #000000;
+.title{
+    color: var(--title-text-color);
 }
-/* Section, section-subtitle */
-.section {
-    color: #000000;
-}
+
 .section-subtitle{
-    color: #D77474;
+    color: var(--subtitle-text-color);
 }
-.section-title{
-    color: #000000;
-}
-].feature-list .title{
-    color: #000000;
-}
-.feature-list .link{
-    color: #000000;
+.button{
+    color: #ffffff;
+    background-color: var(--akcent-text-color);
 }
