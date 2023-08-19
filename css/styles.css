@@ -81,6 +81,9 @@ img {
 .style-nav-item:focus {
     color: var(--akcent-text-color);
 }
+.style-nav .link.current{
+color: var(--akcent-text-color);
+}
 /* hero */
 .title{
     color: var(--title-text-color);
