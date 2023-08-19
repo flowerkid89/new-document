@@ -1,10 +1,11 @@
-.body{
-background-size: #ffffff;
+body{
+background-color: #ffffff;
 color: #6C6C6C;
 }
 
+
 /*основной цвет текта #000000*/
-/* другий колір текстуrgba(0,0,0,80%)*/
+/* другий колір текстуrgba(0,0,0,0.8)*/
 /* ssulka pokaz #ffffff */
 /* teks <p> #6C6C6C */
 /* ssulka Home #AC1313 */
@@ -14,3 +15,39 @@ color: #6C6C6C;
 
 /* osnovnou cvet fona #ffffff */
 /* vtori4nuu cvet #F5F5F5 */
+
+/* Стилі ссилок */
+.style-home{
+    color:#AC1313 ;
+}
+.style-home .list:hover, 
+.style-home .list:focus{
+    color: #000000;
+}
+.style-nav .list{
+    color:#6C6C6C ;
+}
+.style-nav .list:hover,
+.style-nav .list:focus {
+    color: #000000;
+}
+/* hero */
+.hero, .hero-title{
+    color: #000000;
+}
+/* Section, section-subtitle */
+.section {
+    color: #000000;
+}
+.section-subtitle{
+    color: #D77474;
+}
+.section-title{
+    color: #000000;
+}
+].feature-list .title{
+    color: #000000;
+}
+.feature-list .link{
+    color: #000000;
+}
